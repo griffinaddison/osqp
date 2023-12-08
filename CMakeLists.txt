@@ -47,7 +47,7 @@ else()
 endif()
 
 # Is printing enabled?
-option (PRINTING "Enable solver printing" ON)
+option (PRINTING "Enable solver printing" OFF)
 if (DEFINED EMBEDDED)
     message(STATUS "Disabling printing for embedded")
     set(PRINTING OFF)
